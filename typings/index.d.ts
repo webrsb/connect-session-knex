@@ -3,7 +3,7 @@ import expressSession, { Store } from 'express-session';
 
 declare module 'connect-session-knex' {
     type ConfigType = {
-      schema?: string;
+      schemaname?: string;
       tablename?: string;
       sidfieldname?: string;
       knex?: Knex;
